@@ -83,7 +83,7 @@ To parse log initially when it comes to Fluentd you need to apply syslog5424 par
     "source": "kubernetes",
     "source_id": "47450",
     "@timestamp": "2020-12-31T14:41:25.003082896-06:00",
-    "tag": "k8s"
+    "tag": "tkgi"
   }
   ```
 
