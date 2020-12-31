@@ -117,3 +117,6 @@ To parse log initially when it comes to Fluentd you need to apply syslog5424 par
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## TODO:
+Remove grok parser dependency to parse syslog.
