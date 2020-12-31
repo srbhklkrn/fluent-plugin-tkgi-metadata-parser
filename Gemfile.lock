@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    fluent-plugin-tkgi-metadata-parser (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fluent-plugin-tkgi-metadata-parser!
+
+BUNDLED WITH
+   2.1.4
