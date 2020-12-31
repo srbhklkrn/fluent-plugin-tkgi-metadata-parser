@@ -46,7 +46,6 @@ To parse log initially when it comes to Fluentd you need to apply syslog5424 par
     key_name syslog5424_sd
     reserve_data true
     reserve_time true
-    remove_key_name_field true
     <parse>
       @type tkgi_metadata
       es_mode true
