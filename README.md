@@ -41,7 +41,7 @@ To parse log initially when it comes to Fluentd you need to apply syslog5424 par
 ### Plugin configuration
 
 ```conf
-<filter k8s>
+<filter tkgi>
     @type parser
     key_name syslog5424_sd
     reserve_data true
