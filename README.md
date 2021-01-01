@@ -4,7 +4,7 @@
 
 This Fluentd parser plugin parses metadata received from Tanzu Kubernetes Grid Integrated Edition (TKGI) or Tanzu Kubernetes Grid (TKG).
 
-TKG(I) uses [RFC 5424 - The Syslog Protocol](https://tools.ietf.org/html/rfc5424), this plugin parses specifically the syslog5424_sd field if you use standard parser but you can use any field which consists of Kubernetes metadata.
+TKG(I) uses [RFC 5424 - The Syslog Protocol](https://tools.ietf.org/html/rfc5424), this plugin parses specifically the syslog5424_sd field if you use standard parser to parse syslog5424 logs initially, but you can use any field which consists of Kubernetes metadata.
 
 e.g
 ```log
@@ -20,7 +20,7 @@ $ td-agent-gem install fluent-plugin-tkgi-metadata-parser
 
 ## Usage
 
-To parse log initially when it comes to Fluentd you need to apply syslog5424 parser in the example below uses [grok parser plugin](https://github.com/fluent/fluent-plugin-grok-parser) but feel free to use any other parser of your choice.
+To parse log initially when it comes to Fluentd you need to apply syslog5424 parser, example below uses [grok parser plugin](https://github.com/fluent/fluent-plugin-grok-parser) but feel free to use any other parser of your choice.
 
 ```conf
 <source>
@@ -118,4 +118,4 @@ To parse log initially when it comes to Fluentd you need to apply syslog5424 par
 5. Create a new Pull Request
 
 ## TODO:
-Remove grok parser dependency to parse syslog.
+Remove grok parser dependency to parse syslog initially.
