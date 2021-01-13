@@ -40,9 +40,13 @@ module Fluent::Plugin
     end
 
     def parse(text)
+      
         # Delete first and last square bracket
         text.delete_prefix!("[")
         text.delete_suffix!("]")
+
+        # Replace any whitespaces with `_` if exists inside the double quotes
+        text.gsub!(/\s+(?=(?:(?:[^"]*"){2})*[^"]*"[^"]*$)/,'_')
 
         # Delete any double quotes
         text.gsub!(/"/,'')
