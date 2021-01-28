@@ -59,7 +59,7 @@ module Fluent::Plugin
           k, v = kv.split('=', 2)
 
           if @es_mode
-            k.gsub!(/[\.]/, '_')
+            k.gsub!(/[\.\-\\\/]/, '_')
           end
 
           record[k] = v

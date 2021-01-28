@@ -1,7 +1,7 @@
 $:.push File.expand_path('../lib', __FILE__)
 Gem::Specification.new do |spec|
     spec.name                  = 'fluent-plugin-tkgi-metadata-parser'
-    spec.version               = '1.2.0'
+    spec.version               = '1.2.1'
     spec.authors               = ['Saurabh Kulkarni']
     spec.email                 = ['saurabh.kl@outlook.com']
     spec.summary               = 'Fluentd parser plugin to parse TKGI metadata'
