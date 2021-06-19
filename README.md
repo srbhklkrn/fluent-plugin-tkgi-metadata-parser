@@ -1,6 +1,6 @@
-[![Ruby Gem](https://github.com/srbhklkrn/fluent-plugin-tkgi-metadata-parser/actions/workflows/gem-push.yml/badge.svg)](https://github.com/srbhklkrn/fluent-plugin-tkgi-metadata-parser/actions/workflows/gem-push.yml)
-
 # fluent-plugin-tkgi-metadata-parser
+
+[![Ruby Gem](https://github.com/srbhklkrn/fluent-plugin-tkgi-metadata-parser/actions/workflows/gem-push.yml/badge.svg)](https://github.com/srbhklkrn/fluent-plugin-tkgi-metadata-parser/actions/workflows/gem-push.yml)
 
 ## Description
 
